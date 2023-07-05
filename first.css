@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-photo{
+    width: 120px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    padding: 20px;
+}
+.nav-text{
+    display: flex;
+}
+.list-item{
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    padding-right: 15px;
+}
+.list-item:hover{
+    color: aqua;
+    
+}
