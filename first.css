@@ -101,14 +101,13 @@
     justify-content: space-around;
     align-items: center;
     color: white;
-    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(52, 44, 44));
+    /* background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(52, 44, 44)); */
 }
 .logos{
     width: 70px;
 }               
-.heading-container{
-    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(52, 44, 44));
-}
+
+
 .service-heading{
     text-align: center;
     color: white;
@@ -146,4 +145,7 @@
 }
 .butn:hover{
     color: darkgrey;
+}
+.main-service-container{
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(52, 44, 44));
 }
