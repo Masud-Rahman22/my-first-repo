@@ -24,6 +24,39 @@
     padding-right: 15px;
 }
 .list-item:hover{
-    color: aqua;
-    
+    color: grey;   
+}
+.ban-photo{
+    width: 300px;
+    margin-right: 10px;
+}
+.ban-container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(7, 7, 7),rgb(53, 47, 47));
+    color: white;
+}
+.banner-text{
+        margin-left: 100px;
+        margin-right: 30px;
+}
+.ban-heading{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ban-paragraph{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: red;
+    border-style: none;
+}
+.btn:hover{
+    color: cornflowerblue;
+    transition:ease-in-out;
 }
