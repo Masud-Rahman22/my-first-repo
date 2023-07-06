@@ -96,3 +96,54 @@
 .btn{
     margin-top: 10px;
 }
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(52, 44, 44));
+}
+.logos{
+    width: 70px;
+}               
+.heading-container{
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(52, 44, 44));
+}
+.service-heading{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.box{
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+    box-shadow: 5px 5px 15px grey;
+    background-color: black;
+    width: 230px;
+    height: 200px;
+}
+.heading{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.paragraph{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.butn{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(41, 39, 39);
+    color: white;
+    border-style: none;
+    padding: 5px;
+}
+.butn:hover{
+    color: darkgrey;
+}
