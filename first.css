@@ -27,7 +27,7 @@
     color: grey;   
 }
 .ban-photo{
-    width: 300px;
+    width: 200px;
     margin-right: 10px;
 }
 .ban-container{
@@ -59,4 +59,40 @@
 .btn:hover{
     color: cornflowerblue;
     transition:ease-in-out;
+}
+.about-photo{
+    margin-left: 20px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.description{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.about-title{
+    text-align: center;
+    text-decoration: double;
+    text-shadow: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100px;
+    padding-top: 10px;
+}
+.about-heading{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+.about-text{
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.btn{
+    margin-top: 10px;
 }
