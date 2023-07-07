@@ -37,6 +37,7 @@
     height: 100vh;
     background-image: url("./images/background.png"),linear-gradient(45deg,rgb(7, 7, 7),rgb(53, 47, 47));
     color: white;
+    
 }
 .banner-text{
         margin-left: 100px;
@@ -148,4 +149,63 @@
 }
 .main-service-container{
     background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(52, 44, 44));
+}
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 200px; */
+    background-color: rgb(15, 14, 14);
+    color: white;
+}
+.dark-logoss{
+    width: 120px;
+}
+.contact-logo{
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 80px;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 10px;
+}
+/* .description-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+.contact-info{
+    margin-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    list-style: none;
+    font-size: 10px;
+}
+.heading-4{
+    padding-bottom: 20px;
+}
+.itemss{
+    padding-top: 4px;
+}
+.copyright-container{
+    background-color: rgb(15, 14, 14);
+    color: white;
+    height: 100px;
+}
+.last-line{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.line{
+    border: 0.2px solid grey;
+}
+.line-container{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
 }
